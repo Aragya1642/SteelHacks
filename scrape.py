@@ -70,7 +70,8 @@ if __name__ == '__main__':
     soup = get_soup(response)
 
     cards = filter_cards(soup)
+
     for id, card in enumerate(cards):
       title, date, location, url = find_data_by_class(card)
-      output.append({"id": id, "event data:" : {"title": title, "date": str(date), "location": location, "url": url}})    
+      output.append({"event data:" : {"title": title, "date": str(date), "location": location, "url": url}})    
   export_json(output, 'testing_output.json')

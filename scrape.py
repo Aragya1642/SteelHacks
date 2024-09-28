@@ -1,7 +1,8 @@
 # code to import bs4
 from bs4 import BeautifulSoup
-import requests, time
+import requests, time, json
 from dateutil.parser import parse
+
 
 # main code to get reques object
 def get_request(url):
@@ -23,7 +24,8 @@ def parse_date(date):
   return parse(date)
 
 # from a div, find em-card-text class and return the text
-def find_data_by_class(soup):
+def find_data_by_class(soup: BeautifulSoup):
+  # gets title and url
   event_title = soup.find("h3", class_="em-card_title")
   if not event_title: return None
 
@@ -31,34 +33,34 @@ def find_data_by_class(soup):
     url = a['href']
 
   event_title = event_title.text.strip()
-
+  ########################################################
+  # gets date and location
   text = soup.find_all("p", class_="em-card_event-text")
   if len(text) >= 2:
-    date, location = text
+    date, location = text[0], text[1]
     location = location.get_text().strip()
   else:
     date = text[0]
     location = None
 
   date = date.get_text().strip()
-  # if date contains am or pm, then split date and time
   if "am" in date or "pm" in date:
     date = " ".join(date.split(" ")[0:5])
-    print(date)
 
   date = parse_date(date.strip())
-
+  ########################################################
+  # gets url
   return event_title, date, location, url
+
+def export_json(data: dict, filename: str):
+  with open(filename, 'w') as f:
+    json.dump(data, f)
 
 
 if __name__ == '__main__':
-  # url = 'https://calendar.pitt.edu/calendar/'
-  # page = 1
-  # response = get_request(url)
-  # soup = get_soup(response)
-  # cards = filter_cards(soup)
+  output = {}
 
-  for i in range(1, 32):
+  for i in range(2, 4):
     url = f'https://calendar.pitt.edu/calendar/{i}'
 
     response = get_request(url)
@@ -70,5 +72,6 @@ if __name__ == '__main__':
     cards = filter_cards(soup)
     for card in cards:
       title, date, location, url = find_data_by_class(card)
-      print(f"{title}\n{date}\n{location}\n{url}\n")
-      input()
+      output.update({title: {"date": str(date), "location": location, "url": url}})
+    
+  export_json(output, 'output.json')

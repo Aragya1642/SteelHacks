@@ -62,7 +62,7 @@ if __name__ == '__main__':
   full_output = [] 
 
   id = 0
-  for i in range(2, 12):
+  for i in range(2, 17):
     url = f'https://calendar.pitt.edu/calendar/{i}'
 
     response = get_request(url)

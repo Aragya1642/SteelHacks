@@ -58,7 +58,7 @@ def export_json(data: dict, filename: str):
 
 
 if __name__ == '__main__':
-  output = {}
+  output = [] 
 
   for i in range(2, 4):
     url = f'https://calendar.pitt.edu/calendar/{i}'
@@ -70,8 +70,7 @@ if __name__ == '__main__':
     soup = get_soup(response)
 
     cards = filter_cards(soup)
-    for card in cards:
+    for id, card in enumerate(cards):
       title, date, location, url = find_data_by_class(card)
-      output.update({title: {"date": str(date), "location": location, "url": url}})
-    
-  export_json(output, 'output.json')
+      output.append({"id": id, "event data:" : {"title": title, "date": str(date), "location": location, "url": url}})    
+  export_json(output, 'testing_output.json')

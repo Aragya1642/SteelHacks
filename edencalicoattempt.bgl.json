@@ -1,0 +1,151 @@
+{
+  "title": "EdenCalicoAttempt",
+  "description": "A blank board. Use it as a starting point for your creations.",
+  "version": "0.0.1",
+  "nodes": [
+    {
+      "id": "specialist-38f4e48d",
+      "type": "specialist",
+      "metadata": {
+        "visual": {
+          "x": -245,
+          "y": 332,
+          "collapsed": "expanded"
+        },
+        "title": "Specialist",
+        "logLevel": "debug"
+      },
+      "configuration": {
+        "model": "gemini-1.5-flash-latest",
+        "persona": {
+          "role": "user",
+          "parts": [
+            {
+              "text": "Third-year student, Engineer, South Asian culture, Art-Enthusiast"
+            }
+          ]
+        },
+        "task": {
+          "role": "user",
+          "parts": [
+            {
+              "text": "Filter the input dataset based on your interest"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "input-3a555219",
+      "type": "input",
+      "metadata": {
+        "visual": {
+          "x": -1051,
+          "y": 541,
+          "collapsed": "advanced"
+        },
+        "title": "Input",
+        "logLevel": "debug"
+      },
+      "configuration": {
+        "schema": {
+          "properties": {
+            "context": {
+              "type": "string",
+              "title": "Context",
+              "examples": []
+            }
+          },
+          "type": "object",
+          "required": []
+        }
+      }
+    },
+    {
+      "id": "output-c77dfe43",
+      "type": "output",
+      "metadata": {
+        "visual": {
+          "x": 178,
+          "y": 361,
+          "collapsed": "collapsed"
+        },
+        "title": "Output"
+      },
+      "configuration": {
+        "schema": {
+          "properties": {
+            "context": {
+              "type": "array",
+              "title": "Context",
+              "items": {
+                "type": "object",
+                "examples": [],
+                "behavior": [
+                  "llm-content"
+                ],
+                "default": "null"
+              }
+            }
+          },
+          "type": "object",
+          "required": []
+        }
+      }
+    },
+    {
+      "id": "runJavascript-c29e8447",
+      "type": "runJavascript",
+      "metadata": {
+        "visual": {
+          "collapsed": "expanded",
+          "x": -672.75,
+          "y": 110.01171875
+        },
+        "title": "To Context",
+        "logLevel": "debug"
+      },
+      "configuration": {
+        "inputSchema": {
+          "properties": {
+            "result": {
+              "type": "object",
+              "behavior": [
+                "json-schema"
+              ],
+              "title": "Markdown",
+              "examples": []
+            }
+          },
+          "type": "object",
+          "required": []
+        },
+        "code": "function run({result}) {\n  return [{\n    parts: [{\n      text: JSON.stringify(result),\n    }],\n    role: \"user\",\n  }]\n}",
+        "name": "run"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "specialist-38f4e48d",
+      "to": "output-c77dfe43",
+      "out": "out",
+      "in": "context"
+    },
+    {
+      "from": "input-3a555219",
+      "to": "runJavascript-c29e8447",
+      "out": "context",
+      "in": "result"
+    },
+    {
+      "from": "runJavascript-c29e8447",
+      "to": "specialist-38f4e48d",
+      "out": "result",
+      "in": "in"
+    }
+  ],
+  "metadata": {
+    "comments": []
+  }
+}

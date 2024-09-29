@@ -3,25 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calico AI</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Simple Web Page</title>
+    <link rel="stylesheet" href="index_styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Calico</h1>
-      <!-- Light/Dark Mode Toggle Button -->
+    <div class="container">
       <button id="theme-toggle" class="theme-button">🌙 Dark Mode</button>
-    </header>
-
-    <div class="content">
-      <div class="sidebar"></div>
-      <div class="events-container"></div>
+      <h1 class="title">Big Title in the Middle</h1>
+      <div class="input-section">
+        <input type="text" id="textBox" placeholder="Type something here..." />
+        <button onclick="printToConsole()">Print to Console</button>
+      </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>

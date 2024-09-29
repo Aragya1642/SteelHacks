@@ -14,6 +14,11 @@ toggleButton.addEventListener("click", () => {
   }
 });
 
+function printToConsole() {
+  const textBoxValue = document.getElementById("textBox").value;
+  console.log(textBoxValue);
+}
+
 // Initialize based on user’s previous preference (if stored in localStorage)
 if (localStorage.getItem("theme") === "dark") {
   bodyElement.classList.add("dark-mode");
@@ -31,6 +36,9 @@ toggleButton.addEventListener("click", () => {
 
 // Function to fetch JSON data and populate the events
 function loadEvents() {
+  // open and read sample.csv
+  var csvData = $.csv.toObjects(csv);
+
   fetch("full_output.json")
     .then((response) => response.json())
     .then((data) => {
@@ -40,6 +48,11 @@ function loadEvents() {
       data.forEach((item) => {
         // Destructure event object
         const { title, location, date, url } = item.event;
+
+        // if item id not in csv, skip
+        if (!csvData.find((element) => element.id === item.id)) {
+          return;
+        }
 
         // Create the HTML structure for each event
         const eventCard = document.createElement("div");

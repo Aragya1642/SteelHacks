@@ -1136,3 +1136,48 @@ INFO:getStuff:sent request
 INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:12:41] "POST /getObjects HTTP/1.1" 200 -
 INFO:getStuff:sent request
 INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:14:46] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:18:42] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:36:46] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:38:43] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:44:16] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:45:22] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:48:32] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:01:45] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:02:05] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:02:43] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:03:00] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:12:59] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:17:58] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:18:32] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 12:20:56] "POST /getObjects HTTP/1.1" 200 -

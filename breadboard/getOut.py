@@ -23,5 +23,5 @@ if __name__=='__main__':
               "key": "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"
               }
     print(url)
-    print(requests.post(url, data=params).status_code)#,params=params))
+    print(requests.post(url, data=params).text)#,params=params))
 

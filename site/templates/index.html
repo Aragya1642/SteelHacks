@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CaliCo AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index_styles.css') }}" />
+    
+  </head>
+  <body>
+    <div class="container">
+      <button id="theme-toggle" class="theme-button">🌙 Dark Mode</button>
+      
+      <h1 class="title">Finding you events like <span id="tutorial"></span></h1>
+      <h2>A CaliCo AI Tool</h2>
+      
+      <div class="input-section">
+        <form action="/recommendations" method="get">
+          <input type="text" id="textBox" name="description" placeholder="Describe yourself and your interests..." />
+          <input type="submit" value="Get Events!" class="button" ></input>
+        </form>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='jquery-3.7.1.min.js') }}"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#tutorial', {
+        strings: ['Meditation Mondays at Heinz Chapel', 'Pitt-Johnstown Esports Competiton', 'Introduction to ChatGPT Prompt Engineering for Teaching', 'From Inbox to Impact: Essential Skills for Successful Emails', 'For All the People: A Century of Citizen Action in Health Care Reform', 'Orientation to Research Fundamentals (ORF)'],
+        typeSpeed: 40,
+        backSpeed: 40,
+        backDelay: 3000,
+        showCursor: false
+      })
+    </script>
+    <script src="{{ url_for('static', filename='script.js' ) }}"></script>
+    
+  </body>
+</html>

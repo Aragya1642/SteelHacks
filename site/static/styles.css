@@ -1,0 +1,396 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #2c3e50;
+  padding: 20px;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: #f9f9f9;
+  color: #2c3e50;
+}
+
+header {
+  background: linear-gradient(90deg, #4e54c8, #8f94fb);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+header .theme-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.event {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.event h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.event p {
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+button.add-event {
+  background-color: #4e54c8;
+  background-image: linear-gradient(90deg, #4e54c8, #8f94fb);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.add-event:hover {
+  background-image: linear-gradient(90deg, #3b3ec4, #6d73f9);
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+body.dark-mode .event {
+  background-color: #34495e;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .event h3 {
+  color: #ecf0f1;
+}
+
+body.dark-mode .event p {
+  color: #bdc3c7;
+}
+
+body.dark-mode header {
+  background: linear-gradient(90deg, #2c3e50, #34495e);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Light/Dark Mode Toggle Button */
+.theme-button {
+  background-color: #fff; /* Light background */
+  color: #4e54c8; /* Button text color */
+  border: 2px solid #4e54c8; /* Border color matching the theme */
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 30px; /* Rounded pill shape */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  margin: 7px;
+}
+
+.theme-button:hover {
+  background-color: #4e54c8; /* Darker background on hover */
+  color: #fff; /* Invert text color */
+  border-color: #fff; /* Border turns white on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+body.dark-mode .theme-button {
+  background-color: #34495e; /* Dark background in dark mode */
+  color: #ecf0f1; /* Light text color in dark mode */
+  border: 2px solid #ecf0f1; /* Light border */
+}
+
+body.dark-mode .theme-button:hover {
+  background-color: #ecf0f1; /* Light background on hover in dark mode */
+  color: #34495e; /* Dark text color on hover */
+  border-color: #34495e; /* Dark border on hover */
+}
+
+/* Good idea if no button */
+/* a:hover {
+  text-decoration: underline;
+} */
+
+/* body.dark-mode button.add-event {
+  background-color: #2980b9;
+  background-image: linear-gradient(90deg, #2980b9, #3498db);
+}
+
+body.dark-mode button.add-event:hover {
+  background-image: linear-gradient(90deg, #1f6fa4, #2980b9);
+} */
+
+/* .theme-button {
+  color: #fff;
+}
+
+.theme-button:hover {
+  opacity: 0.8;
+} */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif; /* Using a modern sans-serif font */
+  background-color: #f9f9f9;
+  color: #2c3e50;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(
+    90deg,
+    #4e54c8,
+    #8f94fb
+  ); /* Gradient for a modern look */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+/* Container for events */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min(60px, 8vw), 1fr));
+  gap: 20px;
+  padding: 0 10px;
+}
+
+/* Individual event card */
+.event {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05); /* Larger shadow for modern feel */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event:hover {
+  transform: translateY(-5px); /* Adds a floating effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+body.dark-mode .event:hover {
+  transform: translateY(-5px); /* Adds a floating effect on hover */
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  background-color: #3a5269;
+}
+
+.event h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.event p {
+  color: #7f8c8d;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+/* Calendar Buttons - Dark Mode */
+body.dark-mode .add-event {
+  background-color: #2c3e50;
+  background-image: linear-gradient(
+    90deg,
+    #2c3e50,
+    #34495e
+  ); /* Muted gradient */
+  color: #ecf0f1;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+body.dark-mode .add-event:hover {
+  background-image: linear-gradient(
+    90deg,
+    #1f2a37,
+    #273140
+  ); /* Darker hover gradient */
+}
+
+.add-event, .add-event{
+  background-color: #4e54c8;
+  background-image: linear-gradient(
+    90deg,
+    #4e54c8,
+    #8f94fb
+  ); /* Gradient on button */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button.add-event:hover, .add-event:hover {
+  background-image: linear-gradient(
+    90deg,
+    #3b3ec4,
+    #6d73f9
+  ); /* Slight change on hover */
+}
+
+/* Adding some spacing at the bottom */
+body {
+  padding-bottom: 50px;
+}
+
+.content {
+  display: flex;
+  flex: 1; /* Allow the content to take up remaining space */
+}
+
+.sidebar {
+  width: 20%; /* Set a fixed width for the sidebar */
+  background: #f1f1f1c9;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  color: #000000;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.events-container {
+  flex: 1; /* Allow this container to fill the remaining space */
+  padding: 20px; /* Adjust padding as needed */
+  background: #ffffff; /* Optional: Set a background for the main content */
+}
+
+.event {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.event:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.event-link {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.sidebar .download-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar .download-button:hover {
+  background-color: #0056b3;
+}
+
+/* .sidebar .eventadded {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */

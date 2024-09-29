@@ -1,0 +1,643 @@
+INFO:__main__:Started
+INFO:__main__:sent request
+INFO:__main__:Started
+INFO:__main__:sent request
+INFO:__main__:Started
+INFO:__main__:sent request
+INFO:__main__:Started
+INFO:__main__:sent request
+INFO:__main__:Started
+INFO:__main__:sent request
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:42:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:42:21] "GET / HTTP/1.1" 200 -
+ERROR:server:Exception on /getCalendarEvents [GET]
+Traceback (most recent call last):
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: getEvents() missing 1 required positional argument: 'description'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:42:35] "[35m[1mGET /getCalendarEvents HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:42:42] "GET / HTTP/1.1" 200 -
+ERROR:server:Exception on /getCalendarEvents [GET]
+Traceback (most recent call last):
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: getEvents() missing 1 required positional argument: 'description'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:02] "[35m[1mGET /getCalendarEvents HTTP/1.1[0m" 500 -
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:server:Exception on /getCalendarEvents [GET]
+Traceback (most recent call last):
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josh/projects/SteelHacks/venv/lib/python3.11/site-packages/flask/app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: getEvents() missing 1 required positional argument: 'description'
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:27] "[35m[1mGET /getCalendarEvents HTTP/1.1[0m" 500 -
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:53] "[35m[1mGET /getCalendarEvents HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:53] "GET /getCalendarEvents?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:53] "GET /getCalendarEvents?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:53] "GET /getCalendarEvents?__debugger__=yes&cmd=resource&f=console.png&s=Er5Hp9oBTtZfQRKGMeNA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:43:53] "GET /getCalendarEvents?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 03:44:56] "GET /getCalendarEvents HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:02:29] "[33mGET /getEventObjects HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:02:37] "[33mGET /getObjects HTTP/1.1[0m" 404 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:03:30] "GET /getObjects/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:05:13] "GET /getObjects/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:06:00] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:09:24] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/getStuff.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:12:16] "GET /getTitles/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:13:12] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:13:26] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:15:06] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:15:25] "GET /getObjects/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:24:48] "GET / HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:25:01] "GET /getObjects HTTP/1.1" 200 -
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:25:23] "GET /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:26:19] "GET /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:27:11] "GET /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:31:28] "[33mGET /getObjects/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:34:10] "[33mGET /getObjects/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:42:00] "GET /getCalendarEvents/I%20am%20looking%20for%20engineering%20events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:43:12] "GET /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:44:45] "GET /getObjects?description=I+am+looking+for+engineering+events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:45:26] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:48:33] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:48:55] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:51:52] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:02] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:10] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:15] "GET /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:19] "POST /getCalendarEvents HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:23] "GET /getCalendarEvents HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:32] "POST /getTitles HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:57:40] "GET /getTitles HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:58:15] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:58:19] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:58:29] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:58:36] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:58:49] "GET /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:59:37] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 04:59:42] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:02] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:07] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:25] "GET /getObjects?description=I+am+looking+for+engineering+events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:30] "POST /getCalendarEvents HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:35] "GET /getCalendarEvents?description=I+am+looking+for+engineering+events HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:46] "POST /getTitles HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 05:00:50] "GET /getTitles?description=I+am+looking+for+engineering+events HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug: * Detected change in '/home/josh/projects/SteelHacks/server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:__main__:App started

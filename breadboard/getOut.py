@@ -1,7 +1,7 @@
 import requests
 
 if __name__=='__main__':
-    url = r"http://breadboard-community.wl.r.appspot.com/boards/@AdorableFox/quest.bgl.json"
+    url = r"http://breadboard-community.wl.r.appspot.com/boards/@AdorableFox/quest.bgl.api/run"
     headers = {
       "Content-Type": "application/json",
     }
@@ -20,8 +20,8 @@ if __name__=='__main__':
     #          ]
     #        }
     params = {
-              "key": "rb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"
+              "key": "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"
               }
     print(url)
-    print(requests.get(url, params=params).status_code)#,params=params))
+    print(requests.post(url, data=params).status_code)#,params=params))
 

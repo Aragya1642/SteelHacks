@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CaliCo AI</title>
-    <link rel="stylesheet" href="index_styles.css" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='index_styles.css') }}" />
+    
   </head>
   <body>
     <div class="container">
@@ -18,8 +19,10 @@
         <button onclick="printToConsole()">Get Events!</button>
       </div>
     </div>
+    <script src="{{ url_for('static', filename='jquery-3.7.1.min.js') }}"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    
+    <script src="{{ url_for('static', filename='script.js' ) }}"></script>
     <script>
       var typed = new Typed('#tutorial', {
         strings: ['Meditation Mondays at Heinz Chapel', 'Pitt-Johnstown Esports Competiton', 'Introduction to ChatGPT Prompt Engineering for Teaching', 'From Inbox to Impact: Essential Skills for Successful Emails', 'For All the People: A Century of Citizen Action in Health Care Reform', 'Orientation to Research Fundamentals (ORF)'],

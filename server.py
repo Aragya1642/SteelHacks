@@ -1,14 +1,19 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify, make_response
 import getStuff
+from flask_cors import CORS, cross_origin
 import logging
+import json
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADER'] = 'Content-Type'
 
 logger = logging.getLogger(__name__)
 #interests
 #get data from website and feed
 #get 
 @app.route("/")
+@cross_origin()
 def test():
     return "Hello World"
 
@@ -24,6 +29,7 @@ def getDescription(method):
     return description
 
 @app.route("/getCalendarEvents", methods = ['GET', 'POST'])
+@cross_origin()
 def getEvents():
     logger.debug("Getting Calendar Events")
     description = getDescription(request.method)
@@ -34,12 +40,18 @@ def getEvents():
     return urls
 
 @app.route("/getObjects", methods = ['GET', 'POST'])
+@cross_origin()
 def getObjects():
+    print("here")
     logger.debug("Getting Objects")
     description = getDescription(request.method)
-    return getStuff.getEvents(description, "bb_output.json", "full_output.json")
+    print(description)
+    stuff = getStuff.getEvents(description, "bb_output.json", "full_output.json")
+    print(jsonify(stuff).status)
+    return make_response(jsonify(data=stuff, mimetype='application/json'))
 
 @app.route("/getTitles", methods = ['GET', 'POST'])
+@cross_origin()
 def getTitles():
     logger.debug("Getting Titles")
     description = getDescription(request.method)

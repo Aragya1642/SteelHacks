@@ -641,3 +641,498 @@ INFO:__main__:Started
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 495-664-820
 INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.85:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 495-664-820
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 07:55:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 07:59:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 07:59:31] "GET / HTTP/1.1" 200 -
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:getStuff:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:08:11] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:08:42] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\site\\serve.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:13:54] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:15:52] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:15:59] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:16:13] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:19:31] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:19:47] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:21:11] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:22:39] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:24:16] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:24:35] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:24:53] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:25:59] "POST /getObjects HTTP/1.1" 200 -
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:26:34] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:27:11] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:28:01] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:29:09] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:29:31] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:29:47] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:30:09] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:32:16] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:33:23] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:__main__:App started
+INFO:__main__:App started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:35:18] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:36:20] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:36:45] "[35m[1mPOST /getObjects HTTP/1.1[0m" 500 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:37:52] "POST /getObjects HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:58:59] "GET /getObjects?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:59:11] "[33mGET /get?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1[0m" 404 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:59:23] "GET /getCalendarEvents?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 10:59:38] "[33mGET /get?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1[0m" 404 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:00:02] "GET /getObjects?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:00:23] "GET /getObjects?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:00:38] "GET /getObjects?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:00:59] "GET /getCalendarEvents?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:01:10] "GET /getTitles?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:01:23] "GET /getObjects?description=I%20am%20a%20student%20interested%20in%20engineering%0A HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\EDB67\\OneDrive - University of Pittsburgh\\Documents\\SteelHacks\\server.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:getStuff:Started
+INFO:__main__:Started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.220.68.76:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:getStuff:Started
+INFO:__main__:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 937-020-545
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:04:48] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:04:58] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:10:44] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:11:28] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:11:40] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:12:11] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:12:41] "POST /getObjects HTTP/1.1" 200 -
+INFO:getStuff:sent request
+INFO:werkzeug:127.0.0.1 - - [29/Sep/2024 11:14:46] "POST /getObjects HTTP/1.1" 200 -

@@ -15,14 +15,14 @@
       <h2>A CaliCo AI Tool</h2>
       
       <div class="input-section">
-        <input type="text" id="textBox" placeholder="Describe yourself and your interests..." />
-        <button onclick="printToConsole()">Get Events!</button>
+        <form action="/recommendations" method="get">
+          <input type="text" id="textBox" name="description" placeholder="Describe yourself and your interests..." />
+          <input type="submit" value="Get Events!" class="button" ></input>
+        </form>
       </div>
     </div>
     <script src="{{ url_for('static', filename='jquery-3.7.1.min.js') }}"></script>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    
-    <script src="{{ url_for('static', filename='script.js' ) }}"></script>
     <script>
       var typed = new Typed('#tutorial', {
         strings: ['Meditation Mondays at Heinz Chapel', 'Pitt-Johnstown Esports Competiton', 'Introduction to ChatGPT Prompt Engineering for Teaching', 'From Inbox to Impact: Essential Skills for Successful Emails', 'For All the People: A Century of Citizen Action in Health Care Reform', 'Orientation to Research Fundamentals (ORF)'],
@@ -32,5 +32,7 @@
         showCursor: false
       })
     </script>
+    <script src="{{ url_for('static', filename='script.js' ) }}"></script>
+    
   </body>
 </html>

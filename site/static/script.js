@@ -36,91 +36,7 @@ toggleButton.addEventListener("click", () => {
     localStorage.setItem("theme", "light");
   }
 });
-// Function to fetch JSON data and populate the events
-function loadEvents() {
-  // open and read sample.csv
-  // var csvData = $.csv.toObjects(csv);
-  $.ajax(
-    "http://127.0.0.1:5000/getObjects",
-    {
-      type: 'POST',
-      data: {description: "I am interested in engineering."},
-      success: function(data, status, xhr) {
-        console.log("here")
-        console.log(status)
-        console.log(data.data)
-        {
-          const eventsContainer = document.querySelector(".events-container");
-          eventsContainer.innerHTML = ""; // Clear the container before adding events
-          const addedEventsContainer = document.querySelector(".sidebar");
-    
-          data.data.forEach((item) => {
-            // Destructure event object
-            const { title, location, date, url } = item.event;
-    
-            // if item id not in csv, skip
-            // if (!csvData.find((element) => element.id === item.id)) {
-            //   return;
-            // }
-    
-            // Create the HTML structure for each event
-            const eventCard = document.createElement("div");
-            eventCard.classList.add("event");
-    
-            // Wrap the entire card in an anchor element
-            eventCard.innerHTML = `
-                      <a href="${url}" target="_blank" class="event-link">
-                          <h3>${title}</h3>
-                          <p>Location: ${location}</p>
-                          <p>Date: ${date}</p>
-                      </a>
-                      <a href="${url}.ics" class="add-event" data-url="${url}.ics">Add to Calendar</a>
-            `;
-    
-            // Append the event card to the container
-            eventsContainer.appendChild(eventCard);
-    
-            // Add an event listener to the "Add to Calendar" button
-            const addEventButton = eventCard.querySelector(".add-event");
-            addEventButton.addEventListener("click", (e) => {
-              e.preventDefault(); // Prevent the link from being followed
-              const icsUrl = e.target.dataset.url; // Get the .ics URL from data attribute
-              
-              if (!allEvents.has(icsUrl)) {
-                allEvents.add(icsUrl); // Add the URL to the global set if it's not already present
-                alert(`Added ${title} to the list for download.`);
-                
-                // Need to add blocks on the sidebar
-                const addedEventCard = document.createElement("div");
-                addedEventCard.classList.add("eventAdded");
-    
-                // Create the HTML for the card
-                addedEventCard.innerHTML = `
-                          <a href="${url}" target="_blank" class="event-link">
-                            <h3>${title}</h3>
-                            <p>Location: ${location}</p>
-                            <p>Date: ${date}</p>
-                          </a>
-                `;
-    
-                // Append to the container
-                addedEventsContainer.appendChild(addedEventCard);
-    
-    
-              } else {
-                alert(`Already added ${title}.`);
-              }
-    
-            });
-          });
-        }
-      },
-      error: function(xhr, status, error) {
-        console.log("herebad")
-        console.log(error)
-      }
-    }
-  );
+
 
 
   // fetch("full_output.json")
@@ -129,7 +45,6 @@ function loadEvents() {
   //     )
 
     // .catch((error) => console.error("Error loading events:", error));
-}
 
 function initDownload(){
   // Add a button to download all selected .ics files
@@ -159,6 +74,7 @@ function downloadAllIcsFiles() {
   // a.click();
   // document.body.removeChild(a);
   // URL.revokeObjectURL(url); // Clean up the URL object
+
 }
 
 // Call the function to load events when the page loads

@@ -8,7 +8,8 @@ def website():
 
 @app.route("/recommendations")
 def recommended():
-    return render_template("recommendations.html")
+    description = request.args.get('description')
+    return render_template("recommendations.html", description=description)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port="5400")

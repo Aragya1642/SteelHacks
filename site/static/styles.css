@@ -282,7 +282,7 @@ body.dark-mode .add-event:hover {
   ); /* Darker hover gradient */
 }
 
-button.add-event, .add-event{
+.add-event, .add-event{
   background-color: #4e54c8;
   background-image: linear-gradient(
     90deg,

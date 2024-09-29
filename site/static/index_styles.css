@@ -110,11 +110,11 @@ body.dark-mode .title {
 
 body.dark-mode #textBox {
   background-color: #dbeeff;
-  color: #ecf0f1;
+  color: #000000;
   /* border: 1px solid #66b2e3; */
 }
 
-button {
+button, .button {
   background-color: #4e54c8;
   background-image: linear-gradient(90deg, #4e54c8, #8f94fb);
   color: white;
@@ -126,12 +126,12 @@ button {
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-button:hover {
+button:hover .button:hover {
   background-image: linear-gradient(90deg, #3b3ec4, #6d73f9);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-body.dark-mode button {
+body.dark-mode button, body.dark-mode .button {
   /* background-color: #34495e; */
   background-image: linear-gradient(90deg, #FFB81C, #FFE939);
   color: #003594;
@@ -139,7 +139,7 @@ body.dark-mode button {
   font-weight: bold;
 }
 
-body.dark-mode button:hover {
+body.dark-mode button:hover, body.dark-mode .button:hover  {
   background-image: linear-gradient(90deg, #34495e, #575757);
   /* background-color: #34495e; */
   color: #ecf0f1;

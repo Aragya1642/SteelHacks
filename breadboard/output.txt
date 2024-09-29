@@ -1,0 +1,6 @@
+data: ["graphstart",{"path":[],"timestamp":14673212.599851,"graph":{"nodes":[],"edges":[]}}]
+
+data: ["error",{"error":"Invalid or missing key","code":403,"timestamp":14673212.709276}]
+
+data: ["graphend",{"path":[],"timestamp":14673212.723372}]
+

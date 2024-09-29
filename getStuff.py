@@ -1,10 +1,8 @@
 import requests
 import json
-from flask import Flask
 
 url = r"https://breadboard-community.wl.r.appspot.com/boards/@AdorableFox/calico2.bgl.api/run"
 
-app = Flask(__name__)
 
 toSend = {
             "$key": "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49",
@@ -19,7 +17,4 @@ toSend = {
 
 #json.dumps("{$key: "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"}")
 
-print(requests.request(method="POST",url=url,json=toSend).text)
-
-if __name__=='__main__':
-
+print(json.loads(requests.request(method="POST",url=url,json=toSend).text[6:])[-1])

@@ -160,6 +160,11 @@ body.dark-mode .theme-button:hover {
   border-color: #34495e; /* Dark border on hover */
 }
 
+/* Good idea if no button */
+/* a:hover {
+  text-decoration: underline;
+} */
+
 /* body.dark-mode button.add-event {
   background-color: #2980b9;
   background-image: linear-gradient(90deg, #2980b9, #3498db);
@@ -313,7 +318,7 @@ body {
 
 .sidebar {
   width: 20%; /* Set a fixed width for the sidebar */
-  background: #f1f1f1;
+  background: #f1f1f1c9;
   padding: 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -366,8 +371,6 @@ body {
   color: #007bff;
 }
 
-
-
 .sidebar .download-button {
   margin-top: 20px;
   padding: 10px 15px;
@@ -381,3 +384,13 @@ body {
 .sidebar .download-button:hover {
   background-color: #0056b3;
 }
+
+/* .sidebar .eventadded {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */

@@ -47,6 +47,7 @@ function loadEvents() {
     .then((data) => {
       const eventsContainer = document.querySelector(".events-container");
       eventsContainer.innerHTML = ""; // Clear the container before adding events
+      const addedEventsContainer = document.querySelector(".sidebar");
 
       data.forEach((item) => {
         // Destructure event object
@@ -83,12 +84,28 @@ function loadEvents() {
           if (!allEvents.has(icsUrl)) {
             allEvents.add(icsUrl); // Add the URL to the global set if it's not already present
             alert(`Added ${title} to the list for download.`);
+            
+            // Need to add blocks on the sidebar
+            const addedEventCard = document.createElement("div");
+            addedEventCard.classList.add("eventAdded");
+
+            // Create the HTML for the card
+            addedEventCard.innerHTML = `
+                      <a href="${url}" target="_blank" class="event-link">
+                        <h3>${title}</h3>
+                        <p>Location: ${location}</p>
+                        <p>Date: ${date}</p>
+                      </a>
+            `;
+
+            // Append to the container
+            addedEventsContainer.appendChild(addedEventCard);
+
+
           } else {
             alert(`Already added ${title}.`);
           }
 
-          // Need to add blocks on the sidebar
-          
         });
       });
     })

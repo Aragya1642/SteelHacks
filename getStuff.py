@@ -17,4 +17,20 @@ toSend = {
 
 #json.dumps("{$key: "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"}")
 
-print(json.loads(requests.request(method="POST",url=url,json=toSend).text[6:])[-1])
+response = json.loads(requests.request(method="POST",url=url,json=toSend).text[6:])
+next = response[-1]
+print(next)
+
+toSend1= {
+            "$key": "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49",
+            "$next":next,
+            "context" : [
+                            {
+                                "role": "user",
+                                "text": input()
+                            }
+                        ]
+        }
+response = requests.request(method="POST",url=url,json=toSend)
+response = json.loads(response.text[6:])
+print(response.text)

@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:iCalendar-Ruby
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20240908T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20240908T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137374529
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20240915T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20240915T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137376578
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20240922T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20240922T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137378627
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20240929T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20240929T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137380676
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241006T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241006T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137381701
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241020T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241020T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137384774
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241027T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241027T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137386823
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241104T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241103T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137388872
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241111T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241110T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137391945
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241118T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241117T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137393994
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241209T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241208T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137396043
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20241216T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20241215T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137398092
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250106T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250105T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137399117
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250113T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250112T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137401166
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250120T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250119T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137403215
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250127T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250126T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137405264
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250203T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250202T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137407313
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250210T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250209T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137409362
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250217T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250216T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137411411
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250224T000000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250223T230000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137413460
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250309T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250309T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137415509
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250316T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250316T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137416534
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250323T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250323T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137418583
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250330T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250330T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137420632
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250406T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250406T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137421657
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250413T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250413T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137422682
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250420T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250420T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137424731
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:
+DTEND:20250427T230000Z
+DTSTAMP:20240929T053055Z
+DTSTART:20250427T220000Z
+LOCATION:Whalley Chapel
+SEQUENCE:0
+SUMMARY:Pitt-Johnstown Catholic Campus Ministry Mass
+UID:tag:localist.com\,2008:EventInstance_47190137426780
+URL:https://calendar.pitt.edu/event/catholic-campus-ministry-mass
+END:VEVENT
+END:VCALENDAR

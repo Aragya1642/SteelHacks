@@ -86,6 +86,9 @@ function loadEvents() {
           } else {
             alert(`Already added ${title}.`);
           }
+
+          // Need to add blocks on the sidebar
+          
         });
       });
     })
@@ -106,7 +109,10 @@ function initDownload(){
 
 // Function to download all .ics files
 function downloadAllIcsFiles() {  
+  // Need to parse the ics files and combine
   
+
+
   // const combinedIcsContent = icsUrls.map(url => `BEGIN:VEVENT\nUID:${url}\nEND:VEVENT`).join('\n');
   // const blob = new Blob([combinedIcsContent], { type: 'text/calendar' });
   // const url = URL.createObjectURL(blob);

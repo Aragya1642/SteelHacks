@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+PRODID:iCalendar-Ruby
+BEGIN:VEVENT
+CATEGORIES:Screenings
+DESCRIPTION:Join us for a screening of The Day of Reckoning at Mt Lebanon L
+ ibrary on September 28 or Frick Fine Arts Auditorium 125 on September 29. T
+ his documentary by Xu Xing uses a personal love story to explore the broade
+ r sweep of China’s political history since 1949. By intertwining individual
+  destinies with national narratives\, the film offers a reflective view of 
+ a nation’s evolving story and seeks to uncover overlooked historical perspe
+ ctives. \n\nBoth viewings will include a Live Q&A with director Xu Xing.\n\
+ nThis film is part of the SCREENSHOT: Asia Film Festival\, which takes plac
+ e September 25-29. All films are free for Pitt students\, staff\, and facul
+ ty with a valid Pitt ID\, and the Mt Lebanon Library viewing is free for al
+ l. Registration in advance is requested but not required. For the full sche
+ dule of films\, please visit screenshot.pitt.edu.
+DTEND:20240928T190000Z
+DTSTAMP:20240929T033948Z
+DTSTART:20240928T180000Z
+LOCATION:Mt Lebanon Library and Frick Fine Arts
+SEQUENCE:0
+SUMMARY:SCREENSHOT: Asia Film Festival: The Day of Reckoning
+UID:tag:localist.com\,2008:EventInstance_47534887364947
+URL:https://calendar.pitt.edu/event/screenshot-asia-film-festival-the-day-o
+ f-reckoning
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Screenings
+DESCRIPTION:Join us for a screening of The Day of Reckoning at Mt Lebanon L
+ ibrary on September 28 or Frick Fine Arts Auditorium 125 on September 29. T
+ his documentary by Xu Xing uses a personal love story to explore the broade
+ r sweep of China’s political history since 1949. By intertwining individual
+  destinies with national narratives\, the film offers a reflective view of 
+ a nation’s evolving story and seeks to uncover overlooked historical perspe
+ ctives. \n\nBoth viewings will include a Live Q&A with director Xu Xing.\n\
+ nThis film is part of the SCREENSHOT: Asia Film Festival\, which takes plac
+ e September 25-29. All films are free for Pitt students\, staff\, and facul
+ ty with a valid Pitt ID\, and the Mt Lebanon Library viewing is free for al
+ l. Registration in advance is requested but not required. For the full sche
+ dule of films\, please visit screenshot.pitt.edu.
+DTEND:20240929T170000Z
+DTSTAMP:20240929T033948Z
+DTSTART:20240929T160000Z
+LOCATION:Mt Lebanon Library and Frick Fine Arts
+SEQUENCE:0
+SUMMARY:SCREENSHOT: Asia Film Festival: The Day of Reckoning
+UID:tag:localist.com\,2008:EventInstance_47534887366996
+URL:https://calendar.pitt.edu/event/screenshot-asia-film-festival-the-day-o
+ f-reckoning
+END:VEVENT
+END:VCALENDAR

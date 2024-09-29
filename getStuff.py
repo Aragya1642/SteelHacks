@@ -32,5 +32,6 @@ toSend1= {
                         ]
         }
 response = requests.request(method="POST",url=url,json=toSend)
-response = json.loads(response.text[6:])
 print(response.text)
+#response = json.loads(response.text[6:])
+#print(response.text)

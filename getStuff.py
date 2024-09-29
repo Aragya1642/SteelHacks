@@ -17,7 +17,9 @@ toSend = {
 
 #json.dumps("{$key: "bb-1d34543t634r5lln245o6g1n1h1w5j635t5ega1n1o64115x49"}")
 
-response = json.loads(requests.request(method="POST",url=url,json=toSend).text[6:])
+response = requests.request(method="POST",url=url,json=toSend)
+print(response.text)
+response = json.loads(response.text[6:])
 next = response[-1]
 print(next)
 

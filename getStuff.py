@@ -29,11 +29,11 @@ toSend1= {
             "context" : [
                             {
                                 "role": "user",
-                                "text": input()
+                                "parts": [{ "text": str(input()) }]
                             }
                         ]
         }
-response = requests.request(method="POST",url=url,json=toSend)
+response = requests.request(method="POST",url=url,json=toSend1)
 print(response.text)
-#response = json.loads(response.text[6:])
-#print(response.text)
+response = json.loads(response.text[6:])
+print(response)

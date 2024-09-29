@@ -56,6 +56,12 @@ def export_json(data: dict, filename: str):
   with open(filename, 'w') as f:
     json.dump(data, f)
 
+def get_ical(url):
+  response = get_request(url)
+  soup = get_soup(response)
+  ical = soup.find("a", class_="em-ical-link")
+  return ical['href']
+
 
 if __name__ == '__main__':
   bb_output = [] 

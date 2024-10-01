@@ -28,7 +28,7 @@ If you are a Pitt student or faculty, this is a wonderful resource for you to fi
 
 **Contributors**
 
-Alon Leshan - all296@pitt.edu
+Alon Leshem - all296@pitt.edu
 Aragya Goyal - arg195@pitt.edu
 Eden Brunner - edb67@pitt.edu
 Josh Krymgold - jpk114@pitt.edu
